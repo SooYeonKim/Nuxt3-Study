@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   typescript: {
     shim: false,
-    typeCheck: true
-  }
-})
+    typeCheck: true,
+  },
+  modules: ['nuxt-quasar-ui'],
+  quasar: {
+    /* */
+  },
+});
