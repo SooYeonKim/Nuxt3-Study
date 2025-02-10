@@ -27,4 +27,11 @@ export default defineNuxtConfig({
       },
     ],
   },
+  ssr: true,
+  app: {
+    head: {
+      title: 'Vue & Nuxt 강의',
+      meta: [{ name: 'description', content: '짐코딩 Vue & Nuxt 강의입니다.' }],
+    },
+  },
 });
